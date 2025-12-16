@@ -84,7 +84,7 @@
             color: #39ff14;
             text-shadow: 0 0 2px #39ff14, 0 0 5px #39ff14;
             display: block;
-            transition: all 0.1s ease; /* faster hover response */
+            transition: all 0.1s ease;
             position: relative;
         }
 
@@ -139,6 +139,19 @@
             padding: 120px 24px 80px;
         }
 
+        .category h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #39ff14;
+            text-shadow: 
+                0 0 5px #39ff14,
+                0 0 10px #39ff14,
+                0 0 20px #39ff14,
+                0 0 40px #39ff14,
+                0 0 80px #39ff14;
+            margin-bottom: 16px;
+        }
+
         @keyframes tremble {
             0% { transform: translate(0px, 0px); }
             25% { transform: translate(1px, -1px); }
@@ -183,12 +196,17 @@
         <h1>smali reborn</h1>
         <p class="subtitle">https://discord.gg/Ef3aaaEQVj</p>
         
-        <div class="navlinks">
-            <a href="https://gofile.io/d/aU0vMb" class="downloadcard" gofile>
-                <h2>a buncha coolio libs cuz why not</h2>
-                <p>libs</p>
-            </a>
+        <div class="category">
+            <h2>Mods</h2>
+            <div class="downloadgrid">
+                <a href="https://gofile.io/d/aU0vMb" class="downloadcard" gofile>
+                    <h2>a buncha coolio libs cuz why not</h2>
+                    <p>libs</p>
+                </a>
+            </div>
+        </div>
 
+        <div style="margin-top: 48px;">
             <a href="https://discord.gg/Ef3aaaEQVj" class="downloadcard" discord>
                 <h2>discord serv for apks</h2>
                 <p>apks in here</p>
